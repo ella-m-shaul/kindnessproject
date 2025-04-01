@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <h1>Hello world</h1>
+
+<body class="bg-gradient-to-r from-blue-900 to-blue-300">
+    <nav class="fixed w-full border border-white z-50 bg-black bg-opacity-20 backdrop-filter backdrop-blur-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex flex-row justify-between items-center">
+                <div class="text-2xl font-bold w-full">
+                    <p><span class="text-white">Live Oak's </span><span class="text-blue-500">Kindness Web</span></p>
+                </div>
+                <div class="hidden md:flex justify-end w-full space-x-8">
+                    <a href="./index.html" class="text-white  hover:text-blue-500 transition">Home</a>
+                    <a href="./community.html" class="text-white hover:text-blue-500 transition">Community</a>
+                    <a href="./sanfransisco.html" class="text-white hover:text-blue-500 transition">San Francisco</a>
+                    <a href="./worldwide.html" class="text-white  hover:text-blue-500 transition">Worldwide</a>
+                </div>
+            </div>
+        </div>
+
+
+    </nav>
+    <div class="text-7xl pt-38 text-center font-serif font-semibold">
+        <h1>Live Oak's Kindness Web</h1>
+    </div>
+    <div class="text-5xl text-center pt-32 font-serif">
+        <h2>This week's stories:</h2>
+        <div class="text-3xl pt-16"> 
+            <h3>Read and learn about uplifting stories from around the world! </h3>
+            </div>
+
+    </div>
+    <div class="flex flex-row gap-x-9 justify-center pt-24">
+        <div>
+            <a href="./community.html" class="px-10 py-5 relative rounded group font-medium text-white  inline-block">
+                <span class="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
+                <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500"></span>
+                <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-purple-600 to-blue-500"></span>
+                <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500"></span>
+                <span class="relative text-3xl">Community</span>
+            </a>
+        </div>
+
+        <div>
+            <a href="./sanfransisco.html" class="px-10 py-5 relative rounded group font-medium text-white font-medium inline-block">
+                <span class="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
+                <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500"></span>
+                <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-purple-600 to-blue-500"></span>
+                <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500"></span>
+                <span class=" text-3xl relative">San Fransisco</span>
+            </a>
+        </div>
+
+        <div>
+            <a href="./worldwide.html" class="px-10 py-5 relative rounded group font-medium text-white font-medium inline-block">
+                <span class="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
+                <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500"></span>
+                <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-purple-600 to-blue-500"></span>
+                <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500"></span>
+                <span class="text-3xl relative">Worldwide</span>
+            </a>
+        </div>
+    </div>
+    <div class="text-3xl font-serif pt-20 text-center"> 
+        <h3>Want to tell your own story?</h3> 
+        </div>
+    <div class="text-3xl font-serif pt-3 text-center">
+        <h4>Email ellas@liveoaksf.org!</h4>
+    </div>
+
+        
+
+
 </body>
+
 </html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Oak's Kindness Web</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-gradient-to-br from-indigo-900 via-blue-800 to-teal-700 min-h-screen font-sans text-gray-100">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black bg-opacity-20 backdrop-filter backdrop-blur-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="text-2xl font-bold tracking-tight">
+                        <span class="text-teal-400">Live Oak's</span> <span class="text-white">Kindness Web</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="./index.html" class="text-white hover:text-teal-400 transition">Home</a>
+                    <a href="" class="text-white hover:text-teal-400 transition">Stories</a>
+                    <a href="#" class="text-white hover:text-teal-400 transition">About</a>
+                    <a href="#" class="text-white hover:text-teal-400 transition">Events</a>
+                    <a href="#"
+                        class="bg-teal-500 hover:bg-teal-600 transition py-2 px-4 rounded-full text-white font-medium">Share
+                        Story</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-28 pb-48 overflow-hidden">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-4xl">
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-8">
+                    Building <span class="text-teal-400">Connections</span> Through Acts of <span
+                        class="text-teal-400">Kindness</span>
+                </h1>
+                <p class="text-xl md:text-2xl opacity-80 max-w-2xl mb-12">
+                    Join our community initiative to recognize, celebrate, and inspire acts of compassion throughout
+                    Live Oak.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#stories"
+                        class="bg-teal-500 hover:bg-teal-600 transition py-3 px-8 rounded-full text-white font-medium text-center">
+                        Read Stories
+                    </a>
+                    <a href="#submit"
+                        class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 transition py-3 px-8 rounded-full text-white font-medium text-center">
+                        Share Your Story
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Decorative background elements -->
+        <div class="absolute bottom-0 right-0 w-full h-64 bg-gradient-to-t from-blue-900 to-transparent opacity-70">
+        </div>
+        <div class="absolute top-0 right-0 -mr-20 mt-20 hidden lg:block">
+            <div class="w-64 h-64 rounded-full bg-teal-500 opacity-20 blur-3xl"></div>
+        </div>
+        <div class="absolute bottom-0 left-0 -ml-10 mb-10 hidden lg:block">
+            <div class="w-48 h-48 rounded-full bg-indigo-500 opacity-20 blur-3xl"></div>
+        </div>
+    </header>
+
+    <!-- Featured Stats -->
+    <section class="relative z-10 -mt-20">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div
+                    class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 text-center shadow-xl">
+                    <div class="text-5xl font-bold text-teal-400 mb-3">523</div>
+                    <div class="text-xl font-medium">Acts of Kindness</div>
+                </div>
+                <div
+                    class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 text-center shadow-xl">
+                    <div class="text-5xl font-bold text-teal-400 mb-3">42</div>
+                    <div class="text-xl font-medium">Community Partners</div>
+                </div>
+                <div
+                    class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 text-center shadow-xl">
+                    <div class="text-5xl font-bold text-teal-400 mb-3">8,219</div>
+                    <div class="text-xl font-medium">Lives Touched</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Story -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <div class="text-teal-400 font-medium mb-2">FEATURED STORY</div>
+                    <h2 class="text-4xl font-bold mb-6">Community Garden Project Transforms Local Park</h2>
+                    <p class="text-lg opacity-80 mb-6">
+                        What started as a small initiative by three high school students has blossomed into a
+                        community-wide effort that transformed an abandoned lot into a thriving garden that now feeds
+                        dozens of families.
+                    </p>
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 rounded-full bg-teal-600 mr-4"></div>
+                        <div>
+                            <div class="font-medium">Sarah Johnson</div>
+                            <div class="text-sm opacity-70">Live Oak High School</div>
+                        </div>
+                    </div>
+                    <a href="#"
+                        class="inline-block bg-teal-500 hover:bg-teal-600 transition py-2 px-6 rounded-full text-white font-medium">
+                        Read Full Story
+                    </a>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-teal-600 opacity-20 rounded-xl transform -rotate-3"></div>
+                        <div class="relative bg-indigo-800 h-80 md:h-96 rounded-xl overflow-hidden">
+                            <img src="/api/placeholder/800/600" alt="Community Garden"
+                                class="w-full h-full object-cover" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Stories -->
+    <section id="stories" class="py-20 bg-gradient-to-b from-transparent to-indigo-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-4xl font-bold mb-6">Recent Stories of Kindness</h2>
+                <p class="text-lg opacity-80">
+                    Discover how small acts of kindness are making a big difference in our community. These stories
+                    showcase the power of compassion and generosity.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Story Card 1 -->
+                <div
+                    class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-md rounded-xl overflow-hidden shadow-xl">
+                    <div class="h-60 relative">
+                        <img src="/api/placeholder/600/400" alt="Neighborhood Cleanup"
+                            class="w-full h-full object-cover" />
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                            <div class="text-sm font-medium text-teal-400">ENVIRONMENT</div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Neighborhood Cleanup Day Unites Community</h3>
+                        <p class="opacity-80 mb-4">
+                            Local residents came together to remove trash and plant trees along Oak Street, creating a
+                            beautiful walking path.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm opacity-70">March 15, 2025</span>
+                            <a href="#" class="text-teal-400 hover:text-teal-300">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story Card 2 -->
+                <div
+                    class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-md rounded-xl overflow-hidden shadow-xl">
+                    <div class="h-60 relative">
+                        <img src="/api/placeholder/600/400" alt="Food Drive" class="w-full h-full object-cover" />
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                            <div class="text-sm font-medium text-teal-400">FOOD SECURITY</div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Local Food Drive Exceeds All Expectations</h3>
+                        <p class="opacity-80 mb-4">
+                            A community-wide effort collected over 2,000 items for the local food bank, helping dozens
+                            of families in need.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm opacity-70">March 10, 2025</span>
+                            <a href="#" class="text-teal-400 hover:text-teal-300">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Story Card 3 -->
+                <div
+                    class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-md rounded-xl overflow-hidden shadow-xl">
+                    <div class="h-60 relative">
+                        <img src="/api/placeholder/600/400" alt="Senior Center" class="w-full h-full object-cover" />
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+                            <div class="text-sm font-medium text-teal-400">COMMUNITY</div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Students Bring Joy to Senior Living Center</h3>
+                        <p class="opacity-80 mb-4">
+                            Middle school students organized a game day for residents at Sunshine Senior Living,
+                            creating meaningful intergenerational connections.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm opacity-70">March 5, 2025</span>
+                            <a href="#" class="text-teal-400 hover:text-teal-300">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <a href="#"
+                    class="inline-block border-2 border-white hover:bg-white hover:text-indigo-900 transition py-3 px-8 rounded-full text-white font-medium">
+                    View All Stories
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div
+                class="max-w-4xl mx-auto bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-10 shadow-xl relative">
+                <div class="text-5xl text-white opacity-20 absolute top-6 left-6">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="relative z-10">
+                    <p class="text-2xl italic mb-6">
+                        "The Kindness Web initiative has transformed our community. It's not just about the individual
+                        acts of kindness, but how they've connected us all in a beautiful web of compassion and
+                        support."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-teal-600 mr-4"></div>
+                        <div>
+                            <div class="font-medium">Mayor Elena Rodriguez</div>
+                            <div class="text-sm opacity-70">City of Live Oak</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase Section -->
+    <section class="py-20 bg-gradient-to-b from-indigo-900 to-blue-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-4xl font-bold mb-6">Watch Kindness in Action</h2>
+                <p class="text-lg opacity-80">
+                    See how our community comes together to create positive change through acts of kindness and
+                    compassion.
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <!-- Video Container with styling -->
+                <div class="relative rounded-xl overflow-hidden shadow-2xl">
+                    <!-- Decorative background elements -->
+                    <div class="absolute inset-0 bg-teal-600 opacity-20 rounded-xl transform rotate-1 scale-105"></div>
+
+                    <!-- Video element -->
+                    <div class="relative rounded-xl overflow-hidden aspect-video" id="videoContainer">
+                        <!-- Replace the src with your actual video URL -->
+                        <video class="w-full h-full object-cover" controls poster="/api/placeholder/1280/720"
+                            id="kindnessVideo">
+                            <source src="./img/IMG_1500.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <!-- Play button overlay that disappears on click -->
+                        <div class="absolute inset-0 flex items-center justify-center cursor-pointer" id="playButton">
+                            <div
+                                class="bg-teal-500 bg-opacity-80 rounded-full p-4 shadow-lg transform transition-transform hover:scale-110">
+                                <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M4 4l12 6-12 6z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Optional video caption -->
+                <div class="mt-6 text-center">
+                    <p class="text-lg font-medium text-teal-400">Community Garden Project: From Vision to Reality</p>
+                    <p class="text-sm opacity-70 mt-1">Featuring interviews with student volunteers and community
+                        members</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add this script at the end of the section -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const video = document.getElementById('kindnessVideo');
+                const playButton = document.getElementById('playButton');
+
+                // Hide play button and play video when clicking the play button
+                playButton.addEventListener('click', function () {
+                    video.play();
+                    playButton.style.display = 'none';
+                });
+
+                // Also hide play button when video plays by other means (like clicking the video controls)
+                video.addEventListener('play', function () {
+                    playButton.style.display = 'none';
+                });
+
+                // Show play button again when video is paused or ends
+                video.addEventListener('pause', function () {
+                    playButton.style.display = 'flex';
+                });
+
+                video.addEventListener('ended', function () {
+                    playButton.style.display = 'flex';
+                });
+            });
+        </script>
+    </section>
+
+    <!-- Submit Story Section -->
+    <section id="submit" class="py-20 bg-gradient-to-t from-transparent to-indigo-950">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-16">
+                    <h2 class="text-4xl font-bold mb-6">Share Your Story of Kindness</h2>
+                    <p class="text-lg opacity-80 mb-6">
+                        Have you witnessed or performed an act of kindness in our community? Your story could inspire
+                        others to spread compassion and make a difference.
+                    </p>
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="w-12 h-12 rounded-full bg-teal-500 bg-opacity-20 flex items-center justify-center">
+                            <i class="fas fa-heart text-teal-400"></i>
+                        </div>
+                        <div>Recognize acts of kindness</div>
+                    </div>
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="w-12 h-12 rounded-full bg-teal-500 bg-opacity-20 flex items-center justify-center">
+                            <i class="fas fa-users text-teal-400"></i>
+                        </div>
+                        <div>Connect with your community</div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 rounded-full bg-teal-500 bg-opacity-20 flex items-center justify-center">
+                            <i class="fas fa-seedling text-teal-400"></i>
+                        </div>
+                        <div>Inspire others to join in</div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <form class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg p-8 rounded-xl shadow-xl">
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium mb-2" for="name">Your Name</label>
+                            <input type="text" id="name"
+                                class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-20 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium mb-2" for="email">Email Address</label>
+                            <input type="email" id="email"
+                                class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-20 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium mb-2" for="category">Category</label>
+                            <select id="category"
+                                class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-20 text-white focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent">
+                                <option value="">Select a category</option>
+                                <option value="community">Community</option>
+                                <option value="environment">Environment</option>
+                                <option value="education">Education</option>
+                                <option value="health">Health & Wellness</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-sm font-medium mb-2" for="story">Your Story</label>
+                            <textarea id="story" rows="5"
+                                class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-20 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit"
+                                class="w-full bg-teal-500 hover:bg-teal-600 transition py-3 px-6 rounded-lg text-white font-medium">
+                                Submit Your Story
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-16 bg-indigo-950">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-4">Stay Connected</h2>
+                <p class="opacity-80 mb-8">
+                    Subscribe to our newsletter to receive weekly stories of kindness and upcoming community events.
+                </p>
+                <form class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 max-w-lg mx-auto">
+                    <input type="email" placeholder="Your email address"
+                        class="flex-grow px-4 py-3 rounded-lg bg-white bg-opacity-10 border border-white border-opacity-20 text-white placeholder-white placeholder-opacity-60 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent">
+                    <button type="submit"
+                        class="whitespace-nowrap bg-teal-500 hover:bg-teal-600 transition py-3 px-6 rounded-lg text-white font-medium">
+                        Subscribe Now
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black bg-opacity-40 pt-16 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Live Oak's Kindness Web</h3>
+                    <p class="opacity-70 mb-6">
+                        A community initiative to recognize, celebrate, and inspire acts of compassion throughout Live
+                        Oak.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white bg-opacity-10 flex items-center justify-center hover:bg-teal-500 transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white bg-opacity-10 flex items-center justify-center hover:bg-teal-500 transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full bg-white bg-opacity-10 flex items-center justify-center hover:bg-teal-500 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-medium mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">Home</a>
+                        </li>
+                        <li><a href="#" class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">About Us</a>
+                        </li>
+                        <li><a href="#" class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">Stories</a>
+                        </li>
+                        <li><a href="#" class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">Submit a
+                                Story</a></li>
+                        <li><a href="#" class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-medium mb-4">Categories</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#"
+                                class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">Community</a></li>
+                        <li><a href="#"
+                                class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">Environment</a></li>
+                        <li><a href="#"
+                                class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">Education</a></li>
+                        <li><a href="#" class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">Health &
+                                Wellness</a></li>
+                        <li><a href="#" class="opacity-70 hover:opacity-100 hover:text-teal-400 transition">Youth
+                                Initiatives</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-medium mb-4">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-teal-400"></i>
+                            <span>123 Community Way, Live Oak, CA 95123</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-teal-400"></i>
+                            <span>hello@kindnessweb.org</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone mr-3 text-teal-400"></i>
+                            <span>(555) 123-4567</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white border-opacity-10 pt-8 text-center text-sm opacity-70">
+                <p>&copy; 2025 Live Oak's Kindness Web. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
